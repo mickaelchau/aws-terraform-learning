@@ -1,0 +1,11 @@
+Tutorial from: youtube.com/watch?v=SLB_c_ayRMo&list=WL&index=26
+Please contact me if there's vulnerabilities in code
+
+terraform destroy -target <name_of_resource>
+only destroy target resource
+
+terraform apply -var "subnet_prefix=10.0.1.0/24"
+to automaticly set the var
+
+terraform apply -var-file="testing.tfvars"
+to choose which .tfvars will be used
